@@ -8,8 +8,7 @@ raw$Time <- format(strptime(raw$Time,"%T"),
 
 # Filter out data for Date 2007-02-01 or 2007-02-02
 my_data <- subset(raw, raw$Date == "2007-02-01" | raw$Date == "2007-02-02")
-summary(my_data)
-names(my_data)
+
 
 # Create the png graph 
 png("plot1.png", width = 480, height = 480)
