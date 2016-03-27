@@ -10,11 +10,12 @@ my_data <- subset(raw, raw$Date == "2007-02-01" | raw$Date == "2007-02-02")
 summary(my_data)
 names(my_data)
 
-# plot3
+# Create a new time variable in my_data to depict the spefic time
 my_data$Weekday <- format(my_data$Date, "%a")
 my_data$allTime <- paste(my_data$Date, my_data$Time)
 my_data$allTime <- strptime(my_data$allTime,format="%Y-%m-%d %H:%M:%S")
 
+# Draw the plot
 png("plot3.png", width = 480, height = 480)
 plot(y = my_data$Sub_metering_1, x = my_data$allTime, col = "black", 
      type = "l", xlab = "", ylab = "Energy sub metering")

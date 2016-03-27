@@ -1,3 +1,4 @@
+# Read in the data
 raw <- read.csv("/Users/Haipei/Documents/R/household_power_consumption.txt", 
                 sep = ';',na.strings = '?',stringsAsFactors = FALSE)
 # Change the format for Date and Time
