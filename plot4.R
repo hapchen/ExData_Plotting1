@@ -30,6 +30,6 @@ legend("topright",c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col =
         "black", "red", "blue"), lwd = 1, cex = 0.1)
            
 plot(y = my_data$Global_reactive_power, x = my_data$allTime, col = "black", 
-     type = "h", xlab = "", ylab = "Global_reactive_power")
+     type = "l", xlab = "", ylab = "Global_reactive_power")
 
 dev.off()
