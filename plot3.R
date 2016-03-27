@@ -7,8 +7,7 @@ raw$Time <- format(strptime(raw$Time,"%T"),
 
 # Filter out data for Date 2007-02-01 or 2007-02-02
 my_data <- subset(raw, raw$Date == "2007-02-01" | raw$Date == "2007-02-02")
-summary(my_data)
-names(my_data)
+
 
 # Create a new time variable in my_data to depict the spefic time
 my_data$Weekday <- format(my_data$Date, "%a")
