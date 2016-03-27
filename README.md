@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ### Introduction
 
 This second programming assignment will require you to write an R
@@ -105,6 +106,8 @@ In order to complete this assignment, you must do the following:
 
 This assignment will be graded via peer assessment.
 =======
+=======
+>>>>>>> origin/master
 ## Introduction
 
 This assignment uses data from
@@ -219,4 +222,7 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
